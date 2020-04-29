@@ -1,0 +1,7 @@
+{
+  "name": "ACNH Tracker",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
