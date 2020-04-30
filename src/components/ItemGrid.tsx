@@ -16,6 +16,7 @@ import {
 
 import { informationCircle, trash } from "ionicons/icons";
 import { InfoButtonPopover } from "./InfoButtonPopover";
+import { SingleClickButton } from "./SingleClickButton";
 
 type Item = {
   name: String;
@@ -25,10 +26,10 @@ type Item = {
 
 type ItemList = {
   list: Array<Item>;
-}
+};
 
 export const ItemGrid: React.FC<ItemList> = (props) => {
-  const [showPopover, setShowPopover] = useState(false);
+  // const [disableButton, setDisableButton] = useState(false);
 
   return (
     <IonContent>
@@ -44,16 +45,7 @@ export const ItemGrid: React.FC<ItemList> = (props) => {
                     name={element.name}
                   ></InfoButtonPopover>
                   <IonLabel>{element.name}</IonLabel>
-                  <IonButton
-                    slot="start"
-                    color="success"
-                    onClick={(thing) => {
-                      console.log(thing);
-                      alert("Click!");
-                    }}
-                  >
-                    Caught
-                  </IonButton>
+                  <SingleClickButton></SingleClickButton>
                 </IonItem>
               </IonCol>
             );

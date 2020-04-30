@@ -19,7 +19,7 @@ type InfoButtonProps = {
 
 export const InfoButtonPopover: React.FC<InfoButtonProps> = (props) => {
   const [showPopover, setShowPopover] = useState(false);
-
+  
   return (
     <>
       <IonButton fill="clear" slot="end" onClick={() => setShowPopover(true)}>
