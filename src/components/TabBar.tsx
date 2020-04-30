@@ -1,19 +1,25 @@
 import React from "react";
-import { IonTabBar, IonTabButton, IonLabel } from "@ionic/react";
+import { IonTabBar, IonTabButton, IonIcon } from "@ionic/react";
+import {
+  bugOutline,
+  boatOutline,
+  colorPaletteOutline,
+  pawOutline,
+} from "ionicons/icons";
 
 export const TabBar: React.FC = () => (
   <IonTabBar>
     <IonTabButton tab="bugtab" href="/bugs">
-      <IonLabel>Bugs</IonLabel>
+      <IonIcon icon={bugOutline} color="medium"></IonIcon>
     </IonTabButton>
     <IonTabButton tab="fishtab" href="/fish">
-      <IonLabel>Fish</IonLabel>
+      <IonIcon icon={boatOutline} color="medium"></IonIcon>
     </IonTabButton>
     <IonTabButton tab="fossiltab" href="/fossils">
-      <IonLabel>Fossils</IonLabel>
+      <IonIcon icon={pawOutline} color="medium"></IonIcon>
     </IonTabButton>
-    <IonTabButton tab="arttab" href="/art">
-      <IonLabel>Art</IonLabel>
+    <IonTabButton>
+      <IonIcon icon={colorPaletteOutline} color="medium"></IonIcon>
     </IonTabButton>
   </IonTabBar>
 );
