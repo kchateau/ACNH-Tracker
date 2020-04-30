@@ -1,0 +1,1292 @@
+[
+  {
+    "name": "Common Butterfly",
+    "price": 160,
+    "time": "4am - 7pm",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Yellow Butterfly",
+    "price": 160,
+    "time": "4am - 7pm",
+    "timeOfYearNorthern": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "timeOfYearSouthern": [
+      "March",
+      "April",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Tiger Butterfly",
+    "price": 240,
+    "time": "4am - 7pm",
+    "timeOfYearNorthern": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Peacock Butterfly",
+    "price": 2500,
+    "time": "4am - 7pm",
+    "timeOfYearNorthern": ["March", "April", "May", "June"],
+    "timeOfYearSouthern": ["September", "October", "November", "December"]
+  },
+  {
+    "name": "Common Bluebottle",
+    "price": 300,
+    "time": "4am - 7pm",
+    "timeOfYearNorthern": ["April", "May", "June", "July", "August"],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Paper Kite Butterfly",
+    "price": 1000,
+    "time": "8am - 7pm",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Great Purple Emperor",
+    "price": 3000,
+    "time": "4am - 7pm",
+    "timeOfYearNorthern": ["May", "June", "July", "August"],
+    "timeOfYearSouthern": ["January", "February", "November", "December"]
+  },
+  {
+    "name": "Monarch Butterfly",
+    "price": 140,
+    "time": "4am - 5pm",
+    "timeOfYearNorthern": ["September", "October", "November"],
+    "timeOfYearSouthern": ["March", "April", "May"]
+  },
+  {
+    "name": "Emperor Butterfly",
+    "price": 4000,
+    "time": "7pm - 8am",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "June",
+      "July",
+      "August",
+      "September",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "June",
+      "July",
+      "August",
+      "September",
+      "December"
+    ]
+  },
+  {
+    "name": "Agrias Butterfly",
+    "price": 3000,
+    "time": "8am - 5pm",
+    "timeOfYearNorthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Rajah Brooke's Birdwing",
+    "price": 2500,
+    "time": "8am - 5pm",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "June",
+      "July",
+      "August",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Queen Alexandra's Birdwing",
+    "price": 4000,
+    "time": "8am - 4pm",
+    "timeOfYearNorthern": ["May", "June", "July", "August", "September"],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Madagascan Sunset Moth",
+    "price": 2500,
+    "time": "8am - 4pm",
+    "timeOfYearNorthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Red Dragonfly",
+    "price": 180,
+    "time": "8am - 7pm",
+    "timeOfYearNorthern": ["September", "October"],
+    "timeOfYearSouthern": ["March", "April"]
+  },
+  {
+    "name": "Darner Dragonfly",
+    "price": 230,
+    "time": "8am - 5pm",
+    "timeOfYearNorthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Banded Dragonfly",
+    "price": 4500,
+    "time": "8am - 5pm",
+    "timeOfYearNorthern": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Damselfly",
+    "price": 500,
+    "time": "All Day",
+    "timeOfYearNorthern": ["January", "February", "November", "December"],
+    "timeOfYearSouthern": ["May", "June", "July", "August"]
+  },
+  {
+    "name": "Firefly",
+    "price": 300,
+    "time": "7pm - 4am",
+    "timeOfYearNorthern": ["June"],
+    "timeOfYearSouthern": ["December"]
+  },
+  {
+    "name": "Fly",
+    "price": 60,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Mosquito",
+    "price": 130,
+    "time": "5pm - 4am",
+    "timeOfYearNorthern": ["June", "July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March", "December"]
+  },
+  {
+    "name": "Atlas Moth",
+    "price": 3000,
+    "time": "7pm - 4am",
+    "timeOfYearNorthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Brown Cicada",
+    "price": 250,
+    "time": "8am - 5pm",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Robust Cicada",
+    "price": 300,
+    "time": "8am - 5pm",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Giant Cicada",
+    "price": 500,
+    "time": "8am - 5pm",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Walker Cicada",
+    "price": 400,
+    "time": "8am - 5pm",
+    "timeOfYearNorthern": ["August", "September"],
+    "timeOfYearSouthern": ["February", "March"]
+  },
+  {
+    "name": "Evening Cicada",
+    "price": 550,
+    "time": "4am - 8am, 4pm - 7pm",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Cicada Shell",
+    "price": 10,
+    "time": "All Day",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Scarab Beetle",
+    "price": 10000,
+    "time": "11pm - 8am",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Drone Beetle",
+    "price": 200,
+    "time": "All Day",
+    "timeOfYearNorthern": ["June", "July", "August"],
+    "timeOfYearSouthern": ["January", "February", "December"]
+  },
+  {
+    "name": "Saw Stag",
+    "price": 2000,
+    "time": "All Day",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Miyama Stag",
+    "price": 1000,
+    "time": "All Day",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Giant Stag",
+    "price": 10000,
+    "time": "11pm - 8am",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Rainbow Stag",
+    "price": 6000,
+    "time": "7pm - 8am",
+    "timeOfYearNorthern": ["June", "July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March", "December"]
+  },
+  {
+    "name": "Horned Dynastid",
+    "price": 1350,
+    "time": "5pm - 8am",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Walking Stick",
+    "price": 600,
+    "time": "4am - 8am, 5pm - 7pm",
+    "timeOfYearNorthern": [
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "timeOfYearSouthern": ["January", "February", "March", "April", "May"]
+  },
+  {
+    "name": "Long Locust",
+    "price": 200,
+    "time": "8am - 7pm",
+    "timeOfYearNorthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Migratory Locust",
+    "price": 600,
+    "time": "8am - 7pm",
+    "timeOfYearNorthern": ["August", "September", "October", "November"],
+    "timeOfYearSouthern": ["February", "March", "April", "May"]
+  },
+  {
+    "name": "Rice Grasshopper",
+    "price": 400,
+    "time": "8am - 7pm",
+    "timeOfYearNorthern": ["August", "September", "October", "November"],
+    "timeOfYearSouthern": ["February", "March", "April", "May"]
+  },
+  {
+    "name": "Grasshopper",
+    "price": 160,
+    "time": "8am - 5pm",
+    "timeOfYearNorthern": ["July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March"]
+  },
+  {
+    "name": "Cricket",
+    "price": 130,
+    "time": "5pm - 8am",
+    "timeOfYearNorthern": ["September", "October", "November"],
+    "timeOfYearSouthern": ["March", "April", "May"]
+  },
+  {
+    "name": "Bell Cricket",
+    "price": 430,
+    "time": "5pm - 8am",
+    "timeOfYearNorthern": ["September", "October"],
+    "timeOfYearSouthern": ["March", "April"]
+  },
+  {
+    "name": "Tiger Beetle",
+    "price": 1500,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Earth-boring Dung Beetle",
+    "price": 300,
+    "time": "All Day",
+    "timeOfYearNorthern": ["July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March"]
+  },
+  {
+    "name": "Ant",
+    "price": 80,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Tarantula",
+    "price": 8000,
+    "time": "7pm - 4am",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ]
+  },
+  {
+    "name": "Scorpion",
+    "price": 8000,
+    "time": "7pm - 4am",
+    "timeOfYearNorthern": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Mantis",
+    "price": 430,
+    "time": "8am - 5pm",
+    "timeOfYearNorthern": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Orchid Mantis",
+    "price": 2400,
+    "time": "8am - 5pm",
+    "timeOfYearNorthern": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Honeybee",
+    "price": 200,
+    "time": "8am - 5pm",
+    "timeOfYearNorthern": ["March", "April", "May", "June", "July"],
+    "timeOfYearSouthern": [
+      "January",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Stinkbug",
+    "price": 120,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Man-faced Stink Bug",
+    "price": 1000,
+    "time": "7pm - 8am",
+    "timeOfYearNorthern": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Ladybug",
+    "price": 200,
+    "time": "8am - 5pm",
+    "timeOfYearNorthern": ["March", "April", "May", "June", "October"],
+    "timeOfYearSouthern": [
+      "April",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Jewel Beetle",
+    "price": 2400,
+    "time": "All Day",
+    "timeOfYearNorthern": ["April", "May", "June", "July", "August"],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Violin Beetle",
+    "price": 450,
+    "time": "All Day",
+    "timeOfYearNorthern": ["May", "June", "September", "October", "November"],
+    "timeOfYearSouthern": ["March", "May", "November", "December"]
+  },
+  {
+    "name": "Citrus Long-Horned Beetle",
+    "price": 350,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Rosalia Batesi Beetle",
+    "price": 3000,
+    "time": "All Day",
+    "timeOfYearNorthern": ["May", "June", "July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March", "December"]
+  },
+  {
+    "name": "Pondskater",
+    "price": 130,
+    "time": "8am - 7pm",
+    "timeOfYearNorthern": ["May", "June", "July", "August", "September"],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Diving Beetle",
+    "price": 800,
+    "time": "8am - 7pm",
+    "timeOfYearNorthern": ["May", "June", "July", "August", "September"],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Giant Water Bug",
+    "price": 2000,
+    "time": "7pm - 8am",
+    "timeOfYearNorthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Blue Weevil Beetle",
+    "price": 800,
+    "time": "All Day",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Goliath Beetle",
+    "price": 8000,
+    "time": "5pm - 8am",
+    "timeOfYearNorthern": ["June", "July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March", "December"]
+  },
+  {
+    "name": "Cyclommatus Stag",
+    "price": 8000,
+    "time": "5pm - 8am",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Golden Stag",
+    "price": 12000,
+    "time": "5pm - 8am",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Giraffe Stag",
+    "price": 12000,
+    "time": "5pm - 8am",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Horned Atlas",
+    "price": 8000,
+    "time": "5pm - 8am",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Horned Elephant",
+    "price": 8000,
+    "time": "5pm - 8am",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Horned Hercules",
+    "price": 12000,
+    "time": "5pm - 8am",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Moth",
+    "price": 130,
+    "time": "7pm - 4am",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Wasp",
+    "price": 2500,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Mole Cricket",
+    "price": 500,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "May",
+      "June",
+      "June",
+      "August",
+      "September",
+      "October",
+      "November"
+    ]
+  },
+  {
+    "name": "Dung Beetle",
+    "price": 3000,
+    "time": "All Day",
+    "timeOfYearNorthern": ["January", "February", "December"],
+    "timeOfYearSouthern": ["June", "July", "August"]
+  },
+  {
+    "name": "Walking Lead",
+    "price": 600,
+    "time": "All Day",
+    "timeOfYearNorthern": ["July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March"]
+  },
+  {
+    "name": "Bagworm",
+    "price": 600,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Hermit Crab",
+    "price": 1000,
+    "time": "7pm - 8am",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Wharf Roach",
+    "price": 200,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Flea",
+    "price": 70,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Snail",
+    "price": 250,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Pill Bug",
+    "price": 250,
+    "time": "11pm - 4pm",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Centipede",
+    "price": 300,
+    "time": "4pm - 11am",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Spider",
+    "price": 600,
+    "time": "7pm - 8am",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  }
+]
