@@ -1,18 +1,5 @@
 import React, { useState } from "react";
-import {
-  IonList,
-  IonRow,
-  IonCol,
-  IonLabel,
-  IonPopover,
-  IonButton,
-  IonContent,
-  IonIcon,
-  IonItemSliding,
-  IonAvatar,
-  IonItem,
-  IonItemOptions,
-} from "@ionic/react";
+import { IonList, IonCol, IonLabel, IonContent, IonItem } from "@ionic/react";
 
 import { informationCircle, trash } from "ionicons/icons";
 import { InfoButtonPopover } from "./InfoButtonPopover";
@@ -29,11 +16,9 @@ type ItemList = {
 };
 
 export const ItemGrid: React.FC<ItemList> = (props) => {
-  // const [disableButton, setDisableButton] = useState(false);
-
   return (
     <IonContent>
-      <IonList>
+      <IonList lines="inset" inset={true}>
         {props.list.map(
           (element: { price: number; name: String; time: String }) => {
             return (

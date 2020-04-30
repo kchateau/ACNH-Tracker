@@ -1,0 +1,1472 @@
+[
+  {
+    "name": "Bitterling",
+    "price": 900,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": ["May", "June", "July", "August", "September"]
+  },
+  {
+    "name": "Pale Chub",
+    "price": 160,
+    "time": "9am - 4pm",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Crucian Carp",
+    "price": 160,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Dace",
+    "price": 240,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Carp",
+    "price": 300,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Koi",
+    "price": 4000,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Goldfish",
+    "price": 1300,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Pop-Eyed Goldfish",
+    "price": 1300,
+    "time": "9am - 4pm",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Ranchu Goldfish",
+    "price": 4500,
+    "time": "9am - 4pm",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Killifish",
+    "price": 300,
+    "time": "All Day",
+    "timeOfYearNorthern": ["April", "May", "June", "July", "August"],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Crawfish",
+    "price": 200,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "August",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Soft-Shelled Turtle",
+    "price": 3750,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": ["August", "September"],
+    "timeOfYearSouthern": ["February", "March"]
+  },
+  {
+    "name": "Snapping Turtle",
+    "price": 5000,
+    "time": "9pm - 4am",
+    "timeOfYearNorthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Tadpole",
+    "price": 100,
+    "time": "All Day",
+    "timeOfYearNorthern": ["March", "April", "May", "June", "July"],
+    "timeOfYearSouthern": [
+      "January",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Frog",
+    "price": 120,
+    "time": "All Day",
+    "timeOfYearNorthern": ["May", "June", "July", "August"],
+    "timeOfYearSouthern": ["January", "February", "November", "December"]
+  },
+  {
+    "name": "Freshwater Goby",
+    "price": 400,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Loach",
+    "price": 400,
+    "time": "All Day",
+    "timeOfYearNorthern": ["January", "February", "March", "April", "May"],
+    "timeOfYearSouthern": ["September", "October", "November", "December"]
+  },
+  {
+    "name": "Catfish",
+    "price": 800,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Giant Snakehead",
+    "price": 5500,
+    "time": "9am - 4pm",
+    "timeOfYearNorthern": ["June", "July", "August"],
+    "timeOfYearSouthern": ["January", "February", "December"]
+  },
+  {
+    "name": "Bluegill",
+    "price": 180,
+    "time": "9am - 4pm",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Yellow Perch",
+    "price": 300,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ]
+  },
+  {
+    "name": "Black Bass",
+    "price": 400,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Tilapia",
+    "price": 800,
+    "time": "All Day",
+    "timeOfYearNorthern": ["June", "July", "August", "September", "October"],
+    "timeOfYearSouthern": ["January", "February", "March", "April", "December"]
+  },
+  {
+    "name": "Pike",
+    "price": 1800,
+    "time": "All Day",
+    "timeOfYearNorthern": ["September", "October", "November", "December"],
+    "timeOfYearSouthern": ["March", "April", "May", "June"]
+  },
+  {
+    "name": "Pond Smelt",
+    "price": 500,
+    "time": "All Day",
+    "timeOfYearNorthern": ["January", "February", "December"],
+    "timeOfYearSouthern": ["June", "July", "August"]
+  },
+  {
+    "name": "Sweetfish",
+    "price": 900,
+    "time": "All Day",
+    "timeOfYearNorthern": ["July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March"]
+  },
+  {
+    "name": "Cherry Salmon",
+    "price": 1000,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "September",
+      "October",
+      "November"
+    ],
+    "timeOfYearSouthern": [
+      "March",
+      "April",
+      "May",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Char",
+    "price": 3800,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "September",
+      "October",
+      "November"
+    ],
+    "timeOfYearSouthern": [
+      "March",
+      "April",
+      "May",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Golden Trout",
+    "price": 15000,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "September",
+      "October",
+      "November"
+    ],
+    "timeOfYearSouthern": [
+      "March",
+      "April",
+      "May",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Stringfish",
+    "price": 15000,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": ["January", "February", "March", "December"],
+    "timeOfYearSouthern": ["June", "July", "August", "September"]
+  },
+  {
+    "name": "Salmon",
+    "price": 700,
+    "time": "All Day",
+    "timeOfYearNorthern": ["September"],
+    "timeOfYearSouthern": ["March"]
+  },
+  {
+    "name": "King Salmon",
+    "price": 1800,
+    "time": "All Day",
+    "timeOfYearNorthern": ["September"],
+    "timeOfYearSouthern": ["March"]
+  },
+  {
+    "name": "Mitten Crab",
+    "price": 2000,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": ["September", "October", "November"],
+    "timeOfYearSouthern": ["March", "April", "May"]
+  },
+  {
+    "name": "Guppy",
+    "price": 1300,
+    "time": "9am - 4pm",
+    "timeOfYearNorthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Nibble Fish",
+    "price": 1500,
+    "time": "9am - 4pm",
+    "timeOfYearNorthern": ["May", "June", "July", "August", "September"],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Angelfish",
+    "price": 3000,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Betta",
+    "price": 2500,
+    "time": "9am - 4pm",
+    "timeOfYearNorthern": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Neon Tetra",
+    "price": 500,
+    "time": "9am - 4pm",
+    "timeOfYearNorthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Rainbowfish",
+    "price": 800,
+    "time": "9am - 4pm",
+    "timeOfYearNorthern": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Piranha",
+    "price": 2500,
+    "time": "9am - 4pm, 9pm - 4am",
+    "timeOfYearNorthern": ["June", "July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March", "December"]
+  },
+  {
+    "name": "Arowana",
+    "price": 10000,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": ["June", "July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March", "December"]
+  },
+  {
+    "name": "Dorado",
+    "price": 15000,
+    "time": "4am - 9pm",
+    "timeOfYearNorthern": ["June", "July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March", "December"]
+  },
+  {
+    "name": "Gar",
+    "price": 6000,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": ["June", "July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March", "December"]
+  },
+  {
+    "name": "Arapaima",
+    "price": 10000,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": ["June", "July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March", "December"]
+  },
+  {
+    "name": "Saddled Bichir",
+    "price": 4000,
+    "time": "9pm - 4am",
+    "timeOfYearNorthern": ["June", "July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March", "December"]
+  },
+  {
+    "name": "Sturgeon",
+    "price": 10000,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ]
+  },
+  {
+    "name": "Sea Butterfly",
+    "price": 1000,
+    "time": "All Day",
+    "timeOfYearNorthern": ["January", "February", "March", "December"],
+    "timeOfYearSouthern": ["June", "July", "August", "September"]
+  },
+  {
+    "name": "Sea Horse",
+    "price": 1100,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Clown Fish",
+    "price": 650,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Surgeonfish",
+    "price": 1000,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Butterfly Fish",
+    "price": 1000,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Napoleonfish",
+    "price": 10000,
+    "time": "4am - 9pm",
+    "timeOfYearNorthern": ["July", "August"],
+    "timeOfYearSouthern": ["January", "February"]
+  },
+  {
+    "name": "Zebra Turkeyfish",
+    "price": 500,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Blowfish",
+    "price": 5000,
+    "time": "6pm - 4am",
+    "timeOfYearNorthern": ["January", "February", "November", "December"],
+    "timeOfYearSouthern": ["May", "June", "July", "August"]
+  },
+  {
+    "name": "Puffer Fish",
+    "price": 250,
+    "time": "All Day",
+    "timeOfYearNorthern": ["July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March"]
+  },
+  {
+    "name": "Anchovy",
+    "price": 200,
+    "time": "4am - 9pm",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Horse Mackerel",
+    "price": 150,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Barred Knifejaw",
+    "price": 5000,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Sea Bass",
+    "price": 400,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Red Snapper",
+    "price": 3000,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Dab",
+    "price": 300,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ]
+  },
+  {
+    "name": "Olive Flounder",
+    "price": 800,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Squid",
+    "price": 500,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Moray Eel",
+    "price": 2000,
+    "time": "All Day",
+    "timeOfYearNorthern": ["August", "September", "October"],
+    "timeOfYearSouthern": ["February", "March", "April"]
+  },
+  {
+    "name": "Ribbon Eel",
+    "price": 600,
+    "time": "All Day",
+    "timeOfYearNorthern": ["June", "July", "August", "September", "October"],
+    "timeOfYearSouthern": ["January", "February", "March", "April", "December"]
+  },
+  {
+    "name": "Tuna",
+    "price": 7000,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ]
+  },
+  {
+    "name": "Blue Marlin",
+    "price": 10000,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "July",
+      "August",
+      "September",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ]
+  },
+  {
+    "name": "Giant Trevally",
+    "price": 4500,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Mahi-Mahi",
+    "price": 6000,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Ocean Sunfish",
+    "price": 4000,
+    "time": "4am - 9pm",
+    "timeOfYearNorthern": ["July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March"]
+  },
+  {
+    "name": "Ray",
+    "price": 3000,
+    "time": "4am - 9pm",
+    "timeOfYearNorthern": ["August", "September", "October", "November"],
+    "timeOfYearSouthern": ["February", "March", "April", "May"]
+  },
+  {
+    "name": "Saw Shark",
+    "price": 12000,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": ["June", "July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March", "December"]
+  },
+  {
+    "name": "Hammerhead Shark",
+    "price": 8000,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": ["June", "July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March", "December"]
+  },
+  {
+    "name": "Great White Shark",
+    "price": 15000,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": ["June", "July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March", "December"]
+  },
+  {
+    "name": "Whale Shark",
+    "price": 13000,
+    "time": "All Day",
+    "timeOfYearNorthern": ["June", "July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March", "December"]
+  },
+  {
+    "name": "Suckerfish",
+    "price": 1500,
+    "time": "All Day",
+    "timeOfYearNorthern": ["June", "July", "August", "September"],
+    "timeOfYearSouthern": ["January", "February", "March", "December"]
+  },
+  {
+    "name": "Football Fish",
+    "price": 2500,
+    "time": "4pm - 9am",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": ["May", "June", "July", "August", "September"]
+  },
+  {
+    "name": "Oarfish",
+    "price": 9000,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ]
+  },
+  {
+    "name": "Barreleye",
+    "price": 15000,
+    "time": "9pm - 4am",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "name": "Coelacanth",
+    "price": 15000,
+    "time": "All Day",
+    "timeOfYearNorthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "timeOfYearSouthern": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  }
+]

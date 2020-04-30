@@ -6,8 +6,9 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-// import ExploreContainer from "../components/ExploreContainer";
+import { ItemGrid } from "../components/ItemGrid";
 
+var fishList = require("../assets/fish.json");
 const FishTab: React.FC = () => {
   return (
     <IonPage>
@@ -22,7 +23,7 @@ const FishTab: React.FC = () => {
             <IonTitle size="large">Fish</IonTitle>
           </IonToolbar>
         </IonHeader>
-        {/* <ExploreContainer name="Tab 2 page" /> */}
+        <ItemGrid list={fishList}></ItemGrid>
       </IonContent>
     </IonPage>
   );
