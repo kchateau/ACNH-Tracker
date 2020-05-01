@@ -8,10 +8,11 @@ export const SingleClickButton: React.FC = () => {
 
   return (
     <IonButton
-      size="default"
+      size="small"
       slot="start"
+      shape="round"
       disabled={disableButton}
-      color="success"
+      color="tertiary"
       onClick={() => {
         setDisableButton(true);
       }}
