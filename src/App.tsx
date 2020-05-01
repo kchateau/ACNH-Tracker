@@ -32,6 +32,7 @@ import { TabBar } from "./components/TabBar";
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
+      <TabBar></TabBar>
       <IonRouterOutlet>
         <Route path="/bugs" component={BugTab} exact={true} />
         <Route path="/fish" component={FishTab} exact={true} />
@@ -40,7 +41,6 @@ const App: React.FC = () => (
 
         <Route path="/" render={() => <Redirect to="/bugtab" />} exact={true} />
       </IonRouterOutlet>
-      <TabBar></TabBar>
     </IonReactRouter>
   </IonApp>
 );

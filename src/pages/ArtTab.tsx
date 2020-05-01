@@ -6,7 +6,6 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-// import ExploreContainer from "../components/ExploreContainer";
 
 const ArtTab: React.FC = () => {
   return (
@@ -22,7 +21,6 @@ const ArtTab: React.FC = () => {
             <IonTitle size="large">Art</IonTitle>
           </IonToolbar>
         </IonHeader>
-        {/* <ExploreContainer name="Tab 1 page" /> */}
       </IonContent>
     </IonPage>
   );

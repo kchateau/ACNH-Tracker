@@ -1,9 +1,20 @@
 import React, { useState } from "react";
-import { IonList, IonCol, IonLabel, IonContent, IonItem } from "@ionic/react";
+import useForceUpdate from "use-force-update";
 
-import { informationCircle, trash } from "ionicons/icons";
-import { InfoButtonPopover } from "./InfoButtonPopover";
-import { SingleClickButton } from "./SingleClickButton";
+import {
+  IonList,
+  IonCol,
+  IonLabel,
+  IonContent,
+  IonItem,
+  IonSearchbar,
+} from "@ionic/react";
+
+import { ListContents } from "./ListContents";
+
+let listOfItems: Item[] = [];
+const listOfSearchedItems: Item[] = [];
+let listContents: any;
 
 type Item = {
   name: String;
@@ -16,27 +27,38 @@ type ItemList = {
 };
 
 export const ItemGrid: React.FC<ItemList> = (props) => {
+  const forceUpdate = useForceUpdate();
+
+  buildContents();
+  const [searchText, setSearchText] = useState("");
+  listOfItems = props.list;
+
   return (
     <IonContent>
-      <IonList lines="inset" inset={true}>
-        {props.list.map(
-          (element: { price: number; name: String; time: String }) => {
-            return (
-              <IonCol size="4">
-                <IonItem>
-                  <InfoButtonPopover
-                    price={element.price}
-                    time={element.time}
-                    name={element.name}
-                  ></InfoButtonPopover>
-                  <IonLabel>{element.name}</IonLabel>
-                  <SingleClickButton></SingleClickButton>
-                </IonItem>
-              </IonCol>
-            );
-          }
-        )}
-      </IonList>
+      <IonSearchbar value={searchText} onIonChange={handleInput}></IonSearchbar>
+      {listContents}
     </IonContent>
   );
+  function handleInput(value: any) {
+    console.log(value);
+    listOfItems.forEach((item) => {
+      if (item.name.includes(value["detail"]["value"])) {
+        listOfSearchedItems.push(item);
+      }
+    });
+    buildContents();
+    forceUpdate();
+  }
+
+  function buildContents() {
+    console.log("built contents");
+    if (listOfSearchedItems.length == 0) {
+      listContents = <ListContents list={listOfItems}></ListContents>;
+    } else {
+      console.log("got here");
+      listContents = <ListContents list={listOfSearchedItems}></ListContents>;
+    }
+    console.log("List contents:");
+    console.log(listContents);
+  }
 };
