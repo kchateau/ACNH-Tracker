@@ -3,6 +3,7 @@
     "name": "Common Butterfly",
     "price": 160,
     "time": "4am - 7pm",
+    "photoPath": "assets/bugPics/common_butterfly.png",
     "timeOfYearNorthern": [
       "January",
       "February",

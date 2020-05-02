@@ -1,13 +1,6 @@
 import React, { useState } from "react";
 
-import {
-  IonList,
-  IonCol,
-  IonLabel,
-  IonContent,
-  IonItem,
-  IonSearchbar,
-} from "@ionic/react";
+import { IonContent, IonSearchbar } from "@ionic/react";
 
 import { ListContents } from "./ListContents";
 
@@ -15,9 +8,9 @@ let listOfItems: Item[] = [];
 let listOfSearchedItems: Item[] = [];
 
 type Item = {
-  name: String;
+  name: string;
   price: number;
-  time: String;
+  time: string;
 };
 
 type ItemList = {
