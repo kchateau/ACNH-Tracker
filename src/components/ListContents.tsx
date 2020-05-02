@@ -7,6 +7,7 @@ import {
   IonLabel,
   IonImg,
   IonAvatar,
+  IonCheckbox,
 } from "@ionic/react";
 import { ItemCheckbox } from "./ItemCheckbox";
 import { InfoButtonPopover } from "./InfoButtonPopover";
@@ -30,26 +31,29 @@ export const ListContents: React.FC<ItemList> = (props) => {
   return (
     <IonList inset={true}>
       {props.list.map(
-        (element: {
-          price: number;
-          name: string;
-          time: string;
-        }) => {
+        (element: { price: number; name: string; time: string }) => {
           listOfItems.push(element);
           return (
-            <IonCol size="4">
+            <IonCol>
               <IonItem>
-                <ItemCheckbox></ItemCheckbox>
-                {/* /Users/Kendra/Desktop/acnh-ionic-react/acnh-tracker/src/assets/bugPics/common_butterfly.png */}
                 <IonAvatar>
                   <img src={bugPics[element.name]} />
                 </IonAvatar>
+
                 <InfoButtonPopover
                   price={element.price}
                   time={element.time}
                   name={element.name}
                 ></InfoButtonPopover>
                 <IonLabel>{element.name}</IonLabel>
+                {/* <ItemCheckbox></ItemCheckbox> */}
+                <IonCheckbox
+                  mode="ios"
+                  color="tertiary"
+                  slot="end"
+                  value={element.name}
+                  disabled={false}
+                />
               </IonItem>
             </IonCol>
           );

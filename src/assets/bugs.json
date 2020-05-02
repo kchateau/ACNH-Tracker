@@ -3,7 +3,6 @@
     "name": "Common Butterfly",
     "price": 160,
     "time": "4am - 7pm",
-    "photoPath": "assets/bugPics/common_butterfly.png",
     "timeOfYearNorthern": [
       "January",
       "February",
@@ -1037,7 +1036,7 @@
     "timeOfYearSouthern": ["June", "July", "August"]
   },
   {
-    "name": "Walking Lead",
+    "name": "Walking Leaf",
     "price": 600,
     "time": "All Day",
     "timeOfYearNorthern": ["July", "August", "September"],

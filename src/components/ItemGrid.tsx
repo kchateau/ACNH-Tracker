@@ -18,7 +18,6 @@ type ItemList = {
 };
 
 export const ItemGrid: React.FC<ItemList> = (props) => {
-  console.log("component rerendered");
   listOfItems = props.list;
 
   const [searchText, setSearchText] = useState("");
