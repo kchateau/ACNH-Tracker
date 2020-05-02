@@ -9,7 +9,13 @@ export const ItemCheckbox: React.FC = () => {
       mode="ios"
       color="tertiary"
       slot="end"
-      onIonChange={(e) => setChecked(e.detail.checked)}
+      onIonChange={(e) => {
+        setChecked(e.detail.checked);
+        moveItemToEnd(e);
+      }}
     />
   );
+  function moveItemToEnd(value: any) {
+    
+  }
 };

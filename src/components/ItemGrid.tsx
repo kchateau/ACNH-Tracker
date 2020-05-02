@@ -20,9 +20,16 @@ type ItemList = {
 export const ItemGrid: React.FC<ItemList> = (props) => {
   listOfItems = props.list;
 
+  const moveItemToEnd = (value: any) => {
+    listOfItems.push(
+      listOfItems.splice(findElementByName(value["detail"]["value"]), 1)[0]
+    );
+    buildContents();
+  };
+
   const [searchText, setSearchText] = useState("");
   const [listContents, setListContents] = useState(
-    <ListContents list={listOfItems}></ListContents>
+    <ListContents list={listOfItems} checkItem={moveItemToEnd}></ListContents>
   );
 
   return (
@@ -38,8 +45,8 @@ export const ItemGrid: React.FC<ItemList> = (props) => {
       {listContents}
     </IonContent>
   );
+
   function handleInput(value: any) {
-    console.log(value);
     listOfSearchedItems = [];
     listOfItems.forEach((item) => {
       if (
@@ -52,10 +59,31 @@ export const ItemGrid: React.FC<ItemList> = (props) => {
   }
 
   function buildContents() {
-    console.log("built contents");
-    console.log(listOfSearchedItems);
     if (listOfSearchedItems.length !== 0) {
-      setListContents(<ListContents list={listOfSearchedItems}></ListContents>);
+      setListContents(
+        <ListContents
+          list={listOfSearchedItems}
+          checkItem={moveItemToEnd}
+        ></ListContents>
+      );
+    } else {
+      setListContents(
+        <ListContents
+          list={listOfItems}
+          checkItem={moveItemToEnd}
+        ></ListContents>
+      );
     }
+  }
+
+  function findElementByName(name: string) {
+    let index = -1;
+    listOfItems.forEach((e, i) => {
+      if (e.name === name) {
+        index = i;
+      }
+    });
+
+    return index;
   }
 };
