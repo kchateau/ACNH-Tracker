@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import useForceUpdate from "use-force-update";
 
 import {
   IonList,
@@ -13,8 +12,7 @@ import {
 import { ListContents } from "./ListContents";
 
 let listOfItems: Item[] = [];
-const listOfSearchedItems: Item[] = [];
-let listContents: any;
+let listOfSearchedItems: Item[] = [];
 
 type Item = {
   name: String;
@@ -27,38 +25,45 @@ type ItemList = {
 };
 
 export const ItemGrid: React.FC<ItemList> = (props) => {
-  const forceUpdate = useForceUpdate();
-
-  buildContents();
-  const [searchText, setSearchText] = useState("");
+  console.log("component rerendered");
   listOfItems = props.list;
+
+  const [searchText, setSearchText] = useState("");
+  const [listContents, setListContents] = useState(
+    <ListContents list={listOfItems}></ListContents>
+  );
 
   return (
     <IonContent>
-      <IonSearchbar value={searchText} onIonChange={handleInput}></IonSearchbar>
+      <IonSearchbar
+        autocomplete="on"
+        value={searchText}
+        onIonChange={(e) => {
+          setSearchText(e.detail.value!);
+          handleInput(e);
+        }}
+      ></IonSearchbar>
       {listContents}
     </IonContent>
   );
   function handleInput(value: any) {
     console.log(value);
+    listOfSearchedItems = [];
     listOfItems.forEach((item) => {
-      if (item.name.includes(value["detail"]["value"])) {
+      if (
+        item.name.toLowerCase().includes(value["detail"]["value"].toLowerCase())
+      ) {
         listOfSearchedItems.push(item);
       }
     });
     buildContents();
-    forceUpdate();
   }
 
   function buildContents() {
     console.log("built contents");
-    if (listOfSearchedItems.length == 0) {
-      listContents = <ListContents list={listOfItems}></ListContents>;
-    } else {
-      console.log("got here");
-      listContents = <ListContents list={listOfSearchedItems}></ListContents>;
+    console.log(listOfSearchedItems);
+    if (listOfSearchedItems.length != 0) {
+      setListContents(<ListContents list={listOfSearchedItems}></ListContents>);
     }
-    console.log("List contents:");
-    console.log(listContents);
   }
 };

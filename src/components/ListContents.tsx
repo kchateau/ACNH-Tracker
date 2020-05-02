@@ -23,7 +23,6 @@ export const ListContents: React.FC<ItemList> = (props) => {
       {props.list.map(
         (element: { price: number; name: String; time: String }) => {
           listOfItems.push(element);
-          console.log("Added " + element.name + " to list");
           return (
             <IonCol size="4">
               <IonItem>
