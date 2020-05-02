@@ -3,7 +3,7 @@ import { IonTabBar, IonTabButton, IonIcon, IonLabel } from "@ionic/react";
 import { bug, boat, colorPalette, paw } from "ionicons/icons";
 
 export const TabBar: React.FC = () => (
-  <IonTabBar slot="bottom" color="light">
+  <IonTabBar color="light">
     <IonTabButton tab="bugtab" href="/bugs">
       <IonLabel color="secondary">Bugs</IonLabel>
       <IonIcon icon={bug} color="secondary"></IonIcon>

@@ -2,20 +2,18 @@ import React, { useState } from "react";
 
 import {
   IonList,
-  IonCol,
   IonItem,
   IonLabel,
-  IonImg,
   IonAvatar,
   IonCheckbox,
 } from "@ionic/react";
-import { ItemCheckbox } from "./ItemCheckbox";
 import { InfoButtonPopover } from "./InfoButtonPopover";
 
 import { bugPics } from "../assets/pictureModule";
+import { ItemCheckbox } from "./ItemCheckbox";
 
 let listOfItems: Item[] = [];
-const listOfSearchedItems: Item[] = [];
+// const listOfSearchedItems: Item[] = [];
 
 type Item = {
   name: string;
@@ -34,28 +32,18 @@ export const ListContents: React.FC<ItemList> = (props) => {
         (element: { price: number; name: string; time: string }) => {
           listOfItems.push(element);
           return (
-            <IonCol>
-              <IonItem>
-                <IonAvatar>
-                  <img src={bugPics[element.name]} />
-                </IonAvatar>
-
-                <InfoButtonPopover
-                  price={element.price}
-                  time={element.time}
-                  name={element.name}
-                ></InfoButtonPopover>
-                <IonLabel>{element.name}</IonLabel>
-                {/* <ItemCheckbox></ItemCheckbox> */}
-                <IonCheckbox
-                  mode="ios"
-                  color="tertiary"
-                  slot="end"
-                  value={element.name}
-                  disabled={false}
-                />
-              </IonItem>
-            </IonCol>
+            <IonItem key={element.name}>
+              <IonAvatar>
+                <img src={bugPics[element.name]} alt="" />
+              </IonAvatar>
+              <InfoButtonPopover
+                price={element.price}
+                time={element.time}
+                name={element.name}
+              ></InfoButtonPopover>
+              <IonLabel>{element.name}</IonLabel>
+              <ItemCheckbox></ItemCheckbox>
+            </IonItem>
           );
         }
       )}

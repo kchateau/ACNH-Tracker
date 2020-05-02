@@ -54,7 +54,7 @@ export const ItemGrid: React.FC<ItemList> = (props) => {
   function buildContents() {
     console.log("built contents");
     console.log(listOfSearchedItems);
-    if (listOfSearchedItems.length != 0) {
+    if (listOfSearchedItems.length !== 0) {
       setListContents(<ListContents list={listOfSearchedItems}></ListContents>);
     }
   }

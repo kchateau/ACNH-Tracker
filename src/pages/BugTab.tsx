@@ -7,7 +7,7 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import { ItemGrid } from "../components/ItemGrid";
-import { SearchBar } from "../components/SearchBar";
+// import { SearchBar } from "../components/SearchBar";
 
 var bugList = require("../assets/bugs.json");
 
