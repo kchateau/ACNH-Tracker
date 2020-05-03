@@ -840,7 +840,7 @@
     "timeOfYearSouthern": ["June", "July", "August", "September"]
   },
   {
-    "name": "Sea Horse",
+    "name": "Seahorse",
     "price": 1100,
     "time": "All Day",
     "timeOfYearNorthern": [
@@ -865,7 +865,7 @@
     ]
   },
   {
-    "name": "Clown Fish",
+    "name": "Clownfish",
     "price": 650,
     "time": "All Day",
     "timeOfYearNorthern": [

@@ -12,6 +12,7 @@ import { InfoButtonPopover } from "./InfoButtonPopover";
 import { bugPics } from "../assets/pictureModule";
 import { ItemCheckbox } from "./ItemCheckbox";
 import { list } from "ionicons/icons";
+import { IHash } from "../assets/pictureModule";
 
 let listOfItems: Item[] = [];
 // const listOfSearchedItems: Item[] = [];
@@ -24,7 +25,8 @@ type Item = {
 
 type ItemList = {
   list: Array<Item>;
-  checkItem: any
+  checkItem: any;
+  picList: IHash;
 };
 
 export const ListContents: React.FC<ItemList> = (props) => {
@@ -38,7 +40,7 @@ export const ListContents: React.FC<ItemList> = (props) => {
           return (
             <IonItem key={element.name}>
               <IonAvatar>
-                <img src={bugPics[element.name]} alt="" />
+                <img src={props.picList[element.name]} alt="" />
               </IonAvatar>
               <InfoButtonPopover
                 price={element.price}
@@ -63,9 +65,9 @@ export const ListContents: React.FC<ItemList> = (props) => {
       )}
     </IonList>
   );
-//   function moveItemToEnd(value: any) {
-//     listOfItems.push(
-//       listOfItems.splice(listOfItems.indexOf(value["detail"]["value"]), 1)[0]
-//     );
-//   }
+  //   function moveItemToEnd(value: any) {
+  //     listOfItems.push(
+  //       listOfItems.splice(listOfItems.indexOf(value["detail"]["value"]), 1)[0]
+  //     );
+  //   }
 };

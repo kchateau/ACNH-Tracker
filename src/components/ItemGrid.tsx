@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { IonContent, IonSearchbar } from "@ionic/react";
 
 import { ListContents } from "./ListContents";
+import { IHash } from "../assets/pictureModule";
 
 let listOfItems: Item[] = [];
 let listOfSearchedItems: Item[] = [];
@@ -15,6 +16,7 @@ type Item = {
 
 type ItemList = {
   list: Array<Item>;
+  picList: IHash;
 };
 
 export const ItemGrid: React.FC<ItemList> = (props) => {
@@ -29,7 +31,11 @@ export const ItemGrid: React.FC<ItemList> = (props) => {
 
   const [searchText, setSearchText] = useState("");
   const [listContents, setListContents] = useState(
-    <ListContents list={listOfItems} checkItem={moveItemToEnd}></ListContents>
+    <ListContents
+      list={listOfItems}
+      checkItem={moveItemToEnd}
+      picList={props.picList}
+    ></ListContents>
   );
 
   return (
@@ -64,6 +70,7 @@ export const ItemGrid: React.FC<ItemList> = (props) => {
         <ListContents
           list={listOfSearchedItems}
           checkItem={moveItemToEnd}
+          picList={props.picList}
         ></ListContents>
       );
     } else {
@@ -71,6 +78,7 @@ export const ItemGrid: React.FC<ItemList> = (props) => {
         <ListContents
           list={listOfItems}
           checkItem={moveItemToEnd}
+          picList={props.picList}
         ></ListContents>
       );
     }

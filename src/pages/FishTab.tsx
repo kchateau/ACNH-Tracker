@@ -7,6 +7,7 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import { ItemGrid } from "../components/ItemGrid";
+import { fishPics } from "../assets/pictureModule";
 
 var fishList = require("../assets/fish.json");
 const FishTab: React.FC = () => {
@@ -23,7 +24,7 @@ const FishTab: React.FC = () => {
             <IonTitle size="large">Fish</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ItemGrid list={fishList}></ItemGrid>
+        <ItemGrid list={fishList} picList={fishPics}></ItemGrid>
       </IonContent>
     </IonPage>
   );

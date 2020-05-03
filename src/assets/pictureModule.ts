@@ -78,7 +78,89 @@ import walking_stick from "./bugPics/walking_stick.png";
 import wasp from "./bugPics/wasp.png";
 import wharf_roach from "./bugPics/wharf_roach.png";
 import yellow_butterfly from "./bugPics/yellow_butterfly.png";
-import { walk } from "ionicons/icons";
+
+import anchovy from "./fishPics/anchovy.png";
+import angelfish from "./fishPics/angelfish.png";
+import arapaima from "./fishPics/arapaima.png";
+import arowana from "./fishPics/arowana.png";
+import barred_knifejaw from "./fishPics/barred_knifejaw.png";
+import barreleye from "./fishPics/barreleye.png";
+import betta from "./fishPics/betta.png";
+import bitterling from "./fishPics/bitterling.png";
+import black_bass from "./fishPics/black_bass.png";
+import blowfish from "./fishPics/blowfish.png";
+import blue_marlin from "./fishPics/blue_marlin.png";
+import bluegill from "./fishPics/bluegill.png";
+import butterfly_fish from "./fishPics/butterfly_fish.png";
+import carp from "./fishPics/carp.png";
+import catfish from "./fishPics/catfish.png";
+import char from "./fishPics/char.png";
+import cherry_salmon from "./fishPics/cherry_salmon.png";
+import clownfish from "./fishPics/clownfish.png";
+import coelacanth from "./fishPics/coelacanth.png";
+import crawfish from "./fishPics/crawfish.png";
+import crucian_carp from "./fishPics/crucian_carp.png";
+import dab from "./fishPics/dab.png";
+import dace from "./fishPics/dace.png";
+import dorado from "./fishPics/dorado.png";
+import football_fish from "./fishPics/football_fish.png";
+import freshwater_goby from "./fishPics/freshwater_goby.png";
+import frog from "./fishPics/frog.png";
+import gar from "./fishPics/gar.png";
+import giant_snakehead from "./fishPics/giant_snakehead.png";
+import giant_trevally from "./fishPics/giant_trevally.png";
+import golden_trout from "./fishPics/golden_trout.png";
+import goldfish from "./fishPics/goldfish.png";
+import great_white_shark from "./fishPics/great_white_shark.png";
+import guppy from "./fishPics/guppy.png";
+import hammerhead_shark from "./fishPics/hammerhead_shark.png";
+import horse_mackerel from "./fishPics/horse_mackerel.png";
+import killifish from "./fishPics/killifish.png";
+import king_salmon from "./fishPics/king_salmon.png";
+import koi from "./fishPics/koi.png";
+import loach from "./fishPics/loach.png";
+import mahi_mahi from "./fishPics/mahi_mahi.png";
+import mitten_crab from "./fishPics/mitten_crab.png";
+import moray_eel from "./fishPics/moray_eel.png";
+import napoleonfish from "./fishPics/napoleonfish.png";
+import neon_tetra from "./fishPics/neon_tetra.png";
+import nibble_fish from "./fishPics/nibble_fish.png";
+import oarfish from "./fishPics/oarfish.png";
+import ocean_sunfish from "./fishPics/ocean_sunfish.png";
+import olive_flounder from "./fishPics/olive_flounder.png";
+import pale_chub from "./fishPics/pale_chub.png";
+import pike from "./fishPics/pike.png";
+import piranha from "./fishPics/piranha.png";
+import pond_smelt from "./fishPics/pond_smelt.png";
+import pop_eyed_goldfish from "./fishPics/pop_eyed_goldfish.png";
+import puffer_fish from "./fishPics/puffer_fish.png";
+import rainbowfish from "./fishPics/rainbowfish.png";
+import ranchu_goldfish from "./fishPics/ranchu_goldfish.png";
+import ray from "./fishPics/ray.png";
+import red_snapper from "./fishPics/red_snapper.png";
+import ribbon_eel from "./fishPics/ribbon_eel.png";
+import saddled_bichir from "./fishPics/saddled_bichir.png";
+import salmon from "./fishPics/salmon.png";
+import saw_shark from "./fishPics/saw_shark.png";
+import sea_bass from "./fishPics/sea_bass.png";
+import sea_butterfly from "./fishPics/sea_butterfly.png";
+import seahorse from "./fishPics/seahorse.png";
+import snapping_turtle from "./fishPics/snapping_turtle.png";
+import soft_shelled_turtle from "./fishPics/soft_shelled_turtle.png";
+import squid from "./fishPics/squid.png";
+import stringfish from "./fishPics/stringfish.png";
+import sturgeon from "./fishPics/sturgeon.png";
+import suckerfish from "./fishPics/suckerfish.png";
+import surgeonfish from "./fishPics/surgeonfish.png";
+import sweetfish from "./fishPics/sweetfish.png";
+import tadpole from "./fishPics/tadpole.png";
+import tilapia from "./fishPics/tilapia.png";
+import tuna from "./fishPics/tuna.png";
+import whale_shark from "./fishPics/whale_shark.png";
+import yellow_perch from "./fishPics/yellow_perch.png";
+import zebra_turkeyfish from "./fishPics/zebra_turkeyfish.png";
+import { hammer } from "ionicons/icons";
+import { O_CREAT } from "constants";
 
 export interface IHash {
   [details: string]: any;
@@ -165,4 +247,87 @@ export const bugPics: IHash = {
   Wasp: wasp,
   "Wharf Roach": wharf_roach,
   "Yellow Butterfly": yellow_butterfly,
+};
+
+export const fishPics: IHash = {
+  Anchovy: anchovy,
+  Angelfish: angelfish,
+  Arapaima: arapaima,
+  Arowana: arowana,
+  "Barred Knifejaw": barred_knifejaw,
+  Barreleye: barreleye,
+  Betta: betta,
+  Bitterling: bitterling,
+  "Black Bass": black_bass,
+  Blowfish: blowfish,
+  "Blue Marlin": blue_marlin,
+  Bluegill: bluegill,
+  "Butterfly Fish": butterfly_fish,
+  Carp: carp,
+  Catfish: catfish,
+  Char: char,
+  "Cherry Salmon": cherry_salmon,
+  Clownfish: clownfish,
+  Coelacanth: coelacanth,
+  Crawfish: crawfish,
+  "Crucian Carp": crucian_carp,
+  Dab: dab,
+  Dace: dace,
+  Dorado: dorado,
+  "Football Fish": football_fish,
+  "Freshwater Goby": freshwater_goby,
+  Frog: frog,
+  Gar: gar,
+  "Giant Snakehead": giant_snakehead,
+  "Giant Trevally": giant_trevally,
+  "Golden Trout": golden_trout,
+  Goldfish: goldfish,
+  "Great White Shark": great_white_shark,
+  Guppy: guppy,
+  "Hammerhead Shark": hammerhead_shark,
+  "Horse Mackerel": horse_mackerel,
+  Killifish: killifish,
+  "King Salmon": king_salmon,
+  Koi: koi,
+  Loach: loach,
+  "Mahi-Mahi": mahi_mahi,
+  "Mitten Crab": mitten_crab,
+  "Moray Eel": moray_eel,
+  Napoleonfish: napoleonfish,
+  "Neon Tetra": neon_tetra,
+  "Nibble Fish": nibble_fish,
+  Oarfish: oarfish,
+  "Ocean Sunfish": ocean_sunfish,
+  "Olive Flounder": olive_flounder,
+  "Pale Chub": pale_chub,
+  Pike: pike,
+  Piranha: piranha,
+  "Pond Smelt": pond_smelt,
+  "Pop-Eyed Goldfish": pop_eyed_goldfish,
+  "Puffer Fish": puffer_fish,
+  Rainbowfish: rainbowfish,
+  "Ranchu Goldfish": ranchu_goldfish,
+  Ray: ray,
+  "Red Snapper": red_snapper,
+  "Ribbon Eel": ribbon_eel,
+  "Saddled Bichir": saddled_bichir,
+  Salmon: salmon,
+  "Saw Shark": saw_shark,
+  "Sea Bass": sea_bass,
+  "Sea Butterfly": sea_butterfly,
+  Seahorse: seahorse,
+  "Snapping Turtle": snapping_turtle,
+  "Soft-Shelled Turtle": soft_shelled_turtle,
+  Squid: squid,
+  Stringfish: stringfish,
+  Sturgeon: sturgeon,
+  Suckerfish: suckerfish,
+  Surgeonfish: surgeonfish,
+  Sweetfish: sweetfish,
+  Tadpole: tadpole,
+  Tilapia: tilapia,
+  Tuna: tuna,
+  "Whale Shark": whale_shark,
+  "Yellow Perch": yellow_perch,
+  "Zebra Turkeyfish": zebra_turkeyfish,
 };
