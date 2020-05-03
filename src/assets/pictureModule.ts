@@ -159,8 +159,80 @@ import tuna from "./fishPics/tuna.png";
 import whale_shark from "./fishPics/whale_shark.png";
 import yellow_perch from "./fishPics/yellow_perch.png";
 import zebra_turkeyfish from "./fishPics/zebra_turkeyfish.png";
-import { hammer } from "ionicons/icons";
-import { O_CREAT } from "constants";
+
+import acanthostega from "./fossilPics/acanthostega.png";
+import amber from "./fossilPics/amber.png";
+import ammonite from "./fossilPics/ammonite.png";
+import ankylo_skull from "./fossilPics/ankylo_skull.png";
+import ankylo_tail from "./fossilPics/ankylo_tail.png";
+import ankylo_torso from "./fossilPics/ankylo_torso.png";
+import anomalocaris from "./fossilPics/anomalocaris.png";
+import archaeopteryx from "./fossilPics/archaeopteryx.png";
+import archelon_skull from "./fossilPics/archelon_skull.png";
+import archelon_tail from "./fossilPics/archelon_tail.png";
+import australopith from "./fossilPics/australopith.png";
+import brachio_chest from "./fossilPics/brachio_chest.png";
+import brachio_pelvis from "./fossilPics/brachio_pelvis.png";
+import brachio_skull from "./fossilPics/brachio_skull.png";
+import brachio_tail from "./fossilPics/brachio_tail.png";
+import coprolite from "./fossilPics/coprolite.png";
+import deinony_tail from "./fossilPics/deinony_tail.png";
+import deinony_torso from "./fossilPics/deinony_torso.png";
+import dimetrodon_skull from "./fossilPics/dimetrodon_skull.png";
+import dimetrodon_torso from "./fossilPics/dimetrodon_torso.png";
+import dinosaur_track from "./fossilPics/dinosaur_track.png";
+import diplo_chest from "./fossilPics/diplo_chest.png";
+import diplo_neck from "./fossilPics/diplo_neck.png";
+import diplo_pelvis from "./fossilPics/diplo_pelvis.png";
+import diplo_skull from "./fossilPics/diplo_skull.png";
+import diplo_tail_tip from "./fossilPics/diplo_tail_tip.png";
+import diplo_tail from "./fossilPics/diplo_tail.png";
+import dunkleosteus from "./fossilPics/dunkleosteus.png";
+import eusthenopteron from "./fossilPics/eusthenopteron.png";
+import iguanodon_skull from "./fossilPics/iguanodon_skull.png";
+import iguanodon_tail from "./fossilPics/iguanodon_tail.png";
+import iguanodon_torso from "./fossilPics/iguanodon_torso.png";
+import juramaia from "./fossilPics/juramaia.png";
+import left_megalo_side from "./fossilPics/left_megalo_side.png";
+import left_ptera_wing from "./fossilPics/left_ptera_wing.png";
+import left_quetzal_wing from "./fossilPics/left_quetzal_wing.png";
+import mammoth_skull from "./fossilPics/mammoth_skull.png";
+import mammoth_torso from "./fossilPics/mammoth_torso.png";
+import megacero_skull from "./fossilPics/megacero_skull.png";
+import megacero_tail from "./fossilPics/megacero_tail.png";
+import megacero_torso from "./fossilPics/megacero_torso.png";
+import myllokunmingia from "./fossilPics/myllokunmingia.png";
+import ophthalmo_skull from "./fossilPics/ophthalmo_skull.png";
+import ophthalmo_torso from "./fossilPics/ophthalmo_torso.png";
+import pachysaurus_skull from "./fossilPics/pachysaurus_skull.png";
+import pachysaurus_tail from "./fossilPics/pachysaurus_tail.png";
+import parasaur_skull from "./fossilPics/parasaur_skull.png";
+import parasaur_tail from "./fossilPics/parasaur_tail.png";
+import parasaur_torso from "./fossilPics/parasaur_torso.png";
+import plesio_neck from "./fossilPics/plesio_neck.png";
+import plesio_skull from "./fossilPics/plesio_skull.png";
+import plesio_torso from "./fossilPics/plesio_torso.png";
+import ptera_body from "./fossilPics/ptera_body.png";
+import quetzal_torso from "./fossilPics/quetzal_torso.png";
+import right_megalo_side from "./fossilPics/right_megalo_side.png";
+import right_ptera_wing from "./fossilPics/right_ptera_wing.png";
+import right_quetzal_wing from "./fossilPics/right_quetzal_wing.png";
+import sabertooth_skull from "./fossilPics/sabertooth_skull.png";
+import sabertooth_tail from "./fossilPics/sabertooth_tail.png";
+import shark_tooth_pattern from "./fossilPics/shark_tooth_pattern.png";
+import spino_skull from "./fossilPics/spino_skull.png";
+import spino_tail from "./fossilPics/spino_tail.png";
+import spino_torso from "./fossilPics/spino_torso.png";
+import stego_skull from "./fossilPics/stego_skull.png";
+import stego_tail from "./fossilPics/stego_tail.png";
+import stego_torso from "./fossilPics/stego_torso.png";
+import t_rex_skull from "./fossilPics/t_rex_skull.png";
+import t_rex_tail from "./fossilPics/t_rex_tail.png";
+import t_rex_torso from "./fossilPics/t_rex_torso.png";
+import tricera_skull from "./fossilPics/tricera_skull.png";
+import tricera_tail from "./fossilPics/tricera_tail.png";
+import tricera_torso from "./fossilPics/tricera_torso.png";
+import trilobite from "./fossilPics/trilobite.png";
 
 export interface IHash {
   [details: string]: any;
@@ -330,4 +402,80 @@ export const fishPics: IHash = {
   "Whale Shark": whale_shark,
   "Yellow Perch": yellow_perch,
   "Zebra Turkeyfish": zebra_turkeyfish,
+};
+
+export const fossilPics: IHash = {
+  Acanthostega: acanthostega,
+  Amber: amber,
+  Ammonite: ammonite,
+  "Ankylo Skull": ankylo_skull,
+  "Ankylo Tail": ankylo_tail,
+  "Ankylo Torso": ankylo_torso,
+  Anomalocaris: anomalocaris,
+  Archaeopteryx: archaeopteryx,
+  "Archelon Skull": archelon_skull,
+  "Archelon Tail": archelon_tail,
+  Australopith: australopith,
+  "Brachio Chest": brachio_chest,
+  "Brachio Pelvis": brachio_pelvis,
+  "Brachio Skull": brachio_skull,
+  "Brachio Tail": brachio_tail,
+  Coprolite: coprolite,
+  "Deinony Tail": deinony_tail,
+  "Deinony Torso": deinony_torso,
+  "Dimetrodon Skull": dimetrodon_skull,
+  "Dimetrodon Torso": dimetrodon_torso,
+  "Dinosaur Track": dinosaur_track,
+  "Diplo Chest": diplo_chest,
+  "Diplo Neck": diplo_neck,
+  "Diplo Pelvis": diplo_pelvis,
+  "Diplo Skull": diplo_skull,
+  "Diplo Tail Tip": diplo_tail_tip,
+  "Diplo Tail": diplo_tail,
+  Dunkleosteus: dunkleosteus,
+  Eusthenopteron: eusthenopteron,
+  "Iguanodon Skull": iguanodon_skull,
+  "Iguanodon Tail": iguanodon_tail,
+  "Iguanodon Torso": iguanodon_torso,
+  Juramaia: juramaia,
+  "Left Megalo Side": left_megalo_side,
+  "Left Ptera Wing": left_ptera_wing,
+  "Left Quetzal Wing": left_quetzal_wing,
+  "Mammoth Skull": mammoth_skull,
+  "Mammoth Torso": mammoth_torso,
+  "Megacero Skull": megacero_skull,
+  "Megacero Tail": megacero_tail,
+  "Megacero Torso": megacero_torso,
+  Myllokunmingia: myllokunmingia,
+  "Ophthalmo Skull": ophthalmo_skull,
+  "Ophthalmo Torso": ophthalmo_torso,
+  "Pachysaurus Skull": pachysaurus_skull,
+  "Pachysaurus Tail": pachysaurus_tail,
+  "Parasaur Skull": parasaur_skull,
+  "Parasaur Tail": parasaur_tail,
+  "Parasaur Torso": parasaur_torso,
+  "Plesio Neck": plesio_neck,
+  "Plesio Skull": plesio_skull,
+  "Plesio Torso": plesio_torso,
+  "Ptera Body": ptera_body,
+  "Quetzal Torso": quetzal_torso,
+  "Right Megalo Side": right_megalo_side,
+  "Right Ptera Wing": right_ptera_wing,
+  "Right Quetzal Wing": right_quetzal_wing,
+  "Sabertooth Skull": sabertooth_skull,
+  "Sabertooth Tail": sabertooth_tail,
+  "Shark-Tooth Pattern": shark_tooth_pattern,
+  "Spino Skull": spino_skull,
+  "Spino Tail": spino_tail,
+  "Spino Torso": spino_torso,
+  "Stego Skull": stego_skull,
+  "Stego Tail": stego_tail,
+  "Stego Torso": stego_torso,
+  "T. Rex Skull": t_rex_skull,
+  "T. Rex Tail": t_rex_tail,
+  "T. Rex Torso": t_rex_torso,
+  "Tricera Skull": tricera_skull,
+  "Tricera Tail": tricera_tail,
+  "Tricera Torso": tricera_torso,
+  Trilobite: trilobite,
 };

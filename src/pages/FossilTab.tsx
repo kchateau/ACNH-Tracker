@@ -6,7 +6,12 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
+import { ItemGrid } from "../components/ItemGrid";
+import { fossilPics } from "../assets/pictureModule";
+
 // import ExploreContainer from "../components/ExploreContainer";
+
+var fossilList = require("../assets/fossils.json");
 
 const FossilTab: React.FC = () => {
   return (
@@ -22,7 +27,7 @@ const FossilTab: React.FC = () => {
             <IonTitle size="large">Fossils</IonTitle>
           </IonToolbar>
         </IonHeader>
-        {/* <ExploreContainer name="Tab 3 page" /> */}
+        <ItemGrid list={fossilList} picList={fossilPics}></ItemGrid>
       </IonContent>
     </IonPage>
   );
